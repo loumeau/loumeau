@@ -1,0 +1,98 @@
+
+.content {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {font-size: 30px; font-weight: 400;}
+
+h2 {font-size: 20px;font-weight: 300;}
+
+.row {
+  display: flex;
+  height: 2500px;
+  z-index: 0;
+}
+
+.column {
+  flex: 50%;
+  z-index: 0;
+  padding: 3%;
+  padding-right: 10%;
+}
+
+#Name {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 700;
+}
+
+#Name2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 700;
+	color: white;
+}
+
+#Oliver {
+	text-align: center;
+	padding: 20px;
+}
+
+#Ester {
+	text-align: center;
+	padding: 20px;
+}
+
+.bubbleOliver {
+	margin: 40px;
+  	display: inline-block;
+  	position: relative;
+	width: auto;
+	height: auto;
+	border-radius: 15px;
+	background-color: #b30000;
+	z-index: 1;
+	padding-left: 5%;
+	padding-right: 5%;
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+	vertical-align: middle;
+	margin: 4px;
+}
+
+.bubbleEster {
+	margin: 40px;
+  	display: inline-block;
+  	position: relative;
+  	left: 10%;
+	width: auto;
+	height: auto;
+	background-color: #ffcccc;
+	z-index: 1;
+	padding-left: 5%;
+	padding-right: 5%;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	vertical-align: middle;
+	margin: 4px;
+	border-radius: 15px;
+}
+
+.spacer {
+	height: 100px;
+  	position: relative;
+
+}
+
+
+
