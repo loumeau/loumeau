@@ -1,0 +1,50 @@
+.title {
+	font-size: 50px;
+	text-align: center;
+	font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+
+.layer1 { 
+	background-color: lightgreen;
+	width: 400px;
+	height: 80px;
+	color: white;
+	margin-left: auto;
+  	margin-right: auto;
+	 }
+
+.layer2 { 
+	background-color: green;
+	width: 400px;
+	height: 100px; 
+	color: white; 
+	text-align: center;
+	margin-left: auto;
+  	margin-right: auto;
+	 }
+
+.layer3 { 
+	background-color: darkgreen;
+	width: 400px;
+	height: 350px; 
+	color: white; 
+	text-align: center;
+	margin-left: auto;
+  	margin-right: auto;
+	 }
+
+#ingredients { margin-top: 10% }
+
+body { 
+	margin: 5%; 
+	font-family: 'Staatliches', cursive;
+	text-align: center;
+}
+
+.description {
+	border: 10px solid lightgreen;
+	margin: 30px;
+}
+
+
