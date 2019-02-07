@@ -1,0 +1,13 @@
+body { font-family: 'Roboto', sans-serif;  }
+
+#title { font-size: 20pt }
+
+.restaurants { text-align: center; }
+
+.favorite { text-align: center; }
+
+.image { text-align: center; position: center; }
+
+.description { text-align: center; }
+
+footer { font-size: 18px; text-align: center; text-decoration: none; font-style: bold }
