@@ -1,12 +1,16 @@
 
-.content {
+body {
   height: 100%;
   width: 100%;
+  background-color: #93968A;
+  font-size: 40px;
 }
 
 .header {
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  color: white;
+
 }
 
 h1 {font-size: 50px; font-weight: 400;}
@@ -15,7 +19,7 @@ h2 {font-size: 25px;font-weight: 300;}
 
 .row {
   display: flex;
-  height: 3000px;
+  height: 10400px;
   z-index: 0;
 }
 
@@ -32,19 +36,20 @@ h2 {font-size: 25px;font-weight: 300;}
 	text-align: center;
 	font-weight: 700;
 	position: fixed;
-	left: 1%;
+	left: .75%;
 	transform: rotate(270deg);
 	color: white;
 }
 
 #Name2 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
+	font-size: 40px;
 	text-align: center;
 	font-weight: 700;
-	color: white;
 	position: fixed;
 	left: 90%;
+	transform: rotate(90deg);
+	color: white;
 }
 
 #Oliver {
@@ -64,7 +69,7 @@ h2 {font-size: 25px;font-weight: 300;}
 	width: auto;
 	height: auto;
 	border-radius: 15px;
-	background-color: #b30000;
+	background-color: #464F51;
 	z-index: 1;
 	padding-left: 5%;
 	padding-right: 5%;
@@ -95,19 +100,19 @@ h2 {font-size: 25px;font-weight: 300;}
 }
 
 .spacer {
-	height: 100px;
+	height: 200px;
   	position: relative;
 
 }
 
 .spacer2 {
-	height: 120px;
+	height: 320px;
   	position: relative;
 
 }
 
 .spacer3 {
-	height: 160px;
+	height: 380px;
   	position: relative;
 
 }
