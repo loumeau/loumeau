@@ -1,9 +1,32 @@
-h1{
-	font-family: 'Oswald', sans-serif;
-	font-size: 50px;
-}
+h1 { font-size: 100px; font-family: 'Catamaran', serif;; text-align: center; color: white; letter-spacing: 20px; }
 
-h2{
-	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
+h1:hover { color: yellow; }
+
+h2 { font-family: 'Roboto', sans-serif; font-size: 20px; color: white; text-align: center;}
+
+body { background-color: black }
+
+a { text-decoration:  none; color: white }
+
+a:hover { color: yellow }
+
+.underlined {
+  flex: 1;
+  line-height: 1.2;
+  text-decoration: none;
+  background-image: linear-gradient(to right, yellow 0, yellow 100%);
+  background-position: 0 1.2px;
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: background .5s; 
 }
+ 
+ .underlined:hover {
+    background-size: 100% 100%; }
+  
+ .underlined--offset {
+    background-position: 0 0.5em;
+    box-shadow: inset 0 -.5em 0 0 black;
+  }
+
+
