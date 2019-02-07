@@ -10,6 +10,15 @@ a { text-decoration:  none; color: white }
 
 a:hover { color: yellow }
 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 2em auto;
+    padding: 0;
+}
+
 .underlined {
   flex: 1;
   line-height: 1.2;
