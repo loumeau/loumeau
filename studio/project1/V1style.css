@@ -2,7 +2,7 @@
 body {
   height: 100%;
   width: 100%;
-  background-color: #93968A;
+  background-color: #CACCCE;
   font-size: 40px;
 }
 
@@ -15,7 +15,9 @@ body {
 
 h1 {font-size: 50px; font-weight: 400;}
 
-h2 {font-size: 25px;font-weight: 300;}
+h2 {font-size: 25px;font-weight: 300; }
+
+h4 { font-size: 15px; font-weight: 100; padding: 5px }
 
 .row {
   display: flex;
@@ -35,10 +37,11 @@ h2 {font-size: 25px;font-weight: 300;}
 	font-size: 40px;
 	text-align: center;
 	font-weight: 700;
-	position: fixed;
-	left: .75%;
+	position: absolute;
+	left: .05%;
 	transform: rotate(270deg);
 	color: white;
+	opacity: 10%;
 }
 
 #Name2 {
@@ -46,10 +49,11 @@ h2 {font-size: 25px;font-weight: 300;}
 	font-size: 40px;
 	text-align: center;
 	font-weight: 700;
-	position: fixed;
-	left: 90%;
+	position: absolute;
+	left: 80%;
 	transform: rotate(90deg);
 	color: white;
+
 }
 
 #Oliver {
@@ -80,11 +84,12 @@ h2 {font-size: 25px;font-weight: 300;}
 	margin: 4px;
 }
 
+
 .bubbleEster {
 	margin: 40px;
   	display: inline-block;
   	position: relative;
-  	left: 10%;
+  	left: 16%;
 	width: auto;
 	height: auto;
 	background-color: #ffcccc;
@@ -94,10 +99,19 @@ h2 {font-size: 25px;font-weight: 300;}
 	color: black;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-	vertical-align: middle;
+	vertical-align: right;
 	margin: 4px;
 	border-radius: 15px;
 }
+
+
+.EsterBubblesAglin { 
+	position: relative;
+	text-align: right;
+
+ }
+
+
 
 .spacer {
 	height: 200px;
