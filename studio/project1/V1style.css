@@ -1,27 +1,21 @@
 
-body {
+.content {
   height: 100%;
   width: 100%;
-  background-color: #CACCCE;
-  font-size: 40px;
 }
 
 .header {
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: white;
-
 }
 
-h1 {font-size: 50px; font-weight: 400;}
+h1 {font-size: 30px; font-weight: 400;}
 
-h2 {font-size: 25px;font-weight: 300; }
-
-h4 { font-size: 15px; font-weight: 100; padding: 5px }
+h2 {font-size: 20px;font-weight: 300;}
 
 .row {
   display: flex;
-  height: 10400px;
+  height: 2500px;
   z-index: 0;
 }
 
@@ -34,35 +28,34 @@ h4 { font-size: 15px; font-weight: 100; padding: 5px }
 
 #Name {
 	font-family: 'Roboto', sans-serif;
-	font-size: 40px;
+	font-size: 20px;
 	text-align: center;
-	font-weight: 700;
-	position: absolute;
-	left: .05%;
-	transform: rotate(270deg);
-	color: white;
-	opacity: 10%;
+	font-weight: 500;
 }
 
 #Name2 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 40px;
+	font-size: 20px;
 	text-align: center;
-	font-weight: 700;
-	position: absolute;
-	left: 80%;
-	transform: rotate(90deg);
+	font-weight: 500;
 	color: white;
-
 }
 
 #Oliver {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14;
 	text-align: center;
+	font-weight: 300;
+	color: white;
 	padding: 20px;
 }
 
 #Ester {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14;
 	text-align: center;
+	font-weight: 300;
+	color: black;
 	padding: 20px;
 }
 
@@ -73,7 +66,7 @@ h4 { font-size: 15px; font-weight: 100; padding: 5px }
 	width: auto;
 	height: auto;
 	border-radius: 15px;
-	background-color: #464F51;
+	background-color: #b30000;
 	z-index: 1;
 	padding-left: 5%;
 	padding-right: 5%;
@@ -84,12 +77,11 @@ h4 { font-size: 15px; font-weight: 100; padding: 5px }
 	margin: 4px;
 }
 
-
 .bubbleEster {
 	margin: 40px;
   	display: inline-block;
   	position: relative;
-  	left: 16%;
+  	left: 10%;
 	width: auto;
 	height: auto;
 	background-color: #ffcccc;
@@ -99,35 +91,16 @@ h4 { font-size: 15px; font-weight: 100; padding: 5px }
 	color: black;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-	vertical-align: right;
+	vertical-align: middle;
 	margin: 4px;
 	border-radius: 15px;
 }
 
-
-.EsterBubblesAglin { 
-	position: relative;
-	text-align: right;
-
- }
-
-
-
 .spacer {
-	height: 200px;
+	height: 100px;
   	position: relative;
 
 }
 
-.spacer2 {
-	height: 320px;
-  	position: relative;
 
-}
-
-.spacer3 {
-	height: 380px;
-  	position: relative;
-
-}
 
