@@ -18,19 +18,26 @@ body {
  	font-weight: 500;
 }
 
+.text {
+  text-align: center;
+}
+
 .ingredients {
-	padding: 10px;
-	text-align: left;
-    margin-left: 100px;
-    margin-right: 100px;
+  width: 200px;
+  margin: 100px;
+  padding: 5px;
+  text-align: left;
+  line-height: 130%;
+  display: inline-block;
 }
 
 .directions {
-	padding: 10px;
+  width: 500px;
+  margin: 100px;
+	padding: 5px;
 	text-align: left;
-    margin-left: 100px;
-    margin-right: 800px;
-    line-height: 130%;
+  line-height: 130%;
+  display: inline-block;
 }
 
 li { margin-bottom: 1.5em; }
