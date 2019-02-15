@@ -1,0 +1,54 @@
+
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.explaination {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.column {
+  float: left;
+  line-height: 140%;
+}
+
+.middle {
+  width: 18%;
+}
+
+.right {
+  width: 35%;
+}
+
+.left {
+  width: 47%;
+}
+
+.row {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 100%;
+  }
+}
