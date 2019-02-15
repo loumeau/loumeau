@@ -1,0 +1,42 @@
+
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.explaination {
+	text-align: center;
+ 	font-family: 'Roboto', sans-serif;
+ 	padding: 10px;
+ 	font-weight: 500;
+}
+
+.ingredients {
+	padding: 10px;
+	text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.directions {
+	padding: 10px;
+	text-align: left;
+    margin-left: 100px;
+    margin-right: 800px;
+    line-height: 130%;
+}
+
+li { margin-bottom: 1.5em; }
+
+h1 { font-size: 40px; font-weight: 700;}
+
+h2 { font-size: 20px; font-weight: 500; }
+
+h4 { font-size: 15px; font-weight: 100; }
