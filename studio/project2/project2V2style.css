@@ -9,13 +9,24 @@ body {
 .header {
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  color: yellow;
+  text-shadow: 5px 0px tan;
 }
+
+h1 { font-size: 35px }
 
 .explaination {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   padding: 10px;
   font-weight: 500;
+}
+
+
+li:hover {
+  background-color: #fff2ac;
+    background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
+
 }
 
 .column {
