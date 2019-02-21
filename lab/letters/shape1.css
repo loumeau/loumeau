@@ -1,0 +1,32 @@
+#lowercase-o {
+  width:400px;
+  height:500px;
+}
+
+.shape {
+	width: 200px;
+   	height: 230px;
+   	border-radius: 50%;
+   	border: 4px black solid;
+   	margin: 5px;
+   	position: absolute;
+   	z-index: -1;
+}
+.shape2 {
+	width: 150px;
+    height: 180px;
+    border-radius: 50%;
+    border: 4px black solid;
+    margin-left: 30px;
+    margin-top: 30px;
+    position: absolute;
+    z-index: 1;
+}
+
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+  width:400px;
+}

@@ -1,0 +1,46 @@
+#lowercase-z {
+  width:400px;
+  height:500px;
+}
+
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+  width:400px;
+}
+
+
+.z1{ 
+    width: 90px;
+    height: 20px;
+    background: white;
+    border: 3px solid black;
+    margin-left: 60px;
+    margin-top: 40px;
+    position: absolute;
+    border-bottom-right-radius: 45px;
+}
+
+.z2{ 
+    width: 20px;
+    height: 120px;
+    transform: skew(-34deg);
+    background: white;
+    border: 3px solid black;
+    margin-left: 96px;
+    margin-top: 40px;
+    position: absolute;
+}
+
+.z3{ 
+    width: 90px;
+    height: 20px;
+    background: white;
+    border: 3px solid black;
+    margin-left: 65px;
+    margin-top: 140px;
+    position: absolute;
+    border-top-left-radius: 40px;
+}
