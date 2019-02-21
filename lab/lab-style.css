@@ -19,23 +19,6 @@ hr {
     padding: 0;
 }
 
-.underlined {
-  flex: 1;
-  line-height: 1.2;
-  text-decoration: none;
-  background-image: linear-gradient(to right, yellow 0, yellow 100%);
-  background-position: 0 1.2px;
-  background-size: 0 100%;
-  background-repeat: no-repeat;
-  transition: background .5s; 
-}
- 
- .underlined:hover {
-    background-size: 100% 100%; }
-  
- .underlined--offset {
-    background-position: 0 0.5em;
-    box-shadow: inset 0 -.5em 0 0 black;
-  }
+
 
 
