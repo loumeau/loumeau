@@ -1,13 +1,10 @@
 .videoclip {
     margin: 30px;
-    box-shadow: 10px 30px 70px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 20px 50px 0px rgba(50,50,50,0.75);
     z-index: 0;
     position: relative;
 }
 
-audio:not([controls]) {
-    display: none !important;
-}
 
 .body {
 background: linear-gradient(to bottom, #fceabb 0%,#fccd4d 29%,#f8b500 75%,#fbdf93 100%);
@@ -22,6 +19,7 @@ background: linear-gradient(to bottom, #fceabb 0%,#fccd4d 29%,#f8b500 75%,#fbdf9
    margin-left: 750px;
    z-index: 100;
 }
+
 
 .pic {
 	position: absolute;
