@@ -28,7 +28,6 @@ h4 {
   font-size: 55pt;
   font-weight: 500;
   color: white;
-  padding: 30px;
   text-align: center;
 
 }
@@ -199,6 +198,7 @@ a {
     color: white;
     text-align: center;
     padding: 30px;
+    margin-top: 10px;
 }
 
 .versions a:hover {
