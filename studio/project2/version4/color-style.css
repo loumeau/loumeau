@@ -8,7 +8,7 @@ body {
   width: 100%;
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
-  background-color: black;
+  background-color: #aa5670;
 }
 
 
@@ -20,28 +20,19 @@ h2 {
     margin-left: 15%;
     font-size: 55pt;
     font-weight: 500;
-    color: white;
+    color: #2299c4;
     padding: 40px;
-}
-
-h4 {
-  font-size: 55pt;
-  font-weight: 500;
-  color: white;
-  padding: 30px;
-  text-align: center;
-
 }
 
 a { 
   text-decoration: none;
-  color: white;
+  color: #2299c4;
 }
 
 .title p {
   font-size: 75pt;
   font-weight: 700;
-  color: white;
+  color: #2299c4;
   padding: 30px;
   text-align: center;
 }
@@ -67,7 +58,7 @@ a {
 .explaination p {
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: white;
+  color: #2299c4;
 }
 
 .explaination {
@@ -79,7 +70,7 @@ a {
 }
 
 .top {
-  background-color: black;
+  background-color: #aa5670;
   height: 800px;
   width: 100%;
 
@@ -94,11 +85,11 @@ a {
 
 .button {
   box-shadow:inset 0px 8px 16px -9px #ffffff;
-  background-color:#eeff00;
+  background-color:#2299c4;
   border-radius:28px;
   display:inline-block;
   cursor:pointer;
-  color:#000000;
+  color:#aa5670;
   font-family:Arial;
   font-size:18px;
   font-weight:bold;
@@ -108,12 +99,12 @@ a {
 }
 
 .button:hover {
-  background-color:#ffffff;
+  background-color:#5acdf4;
 }
 
 
 #ingredients {
-  background-color: black;
+  background-color: #aa5670;
   height: 600px;
   position: relative;
   width: 100%;
@@ -121,7 +112,7 @@ a {
 }
 
 .ingtext p {
-  color: white;
+  color: #2299c4;
   font-size: 22pt;
   font-weight: 200;
   text-align: left;
@@ -152,7 +143,7 @@ a {
     margin-left: 15%;
     font-size: 55pt;
     font-weight: 500;
-    color: white;
+    color: #2299c4;
     padding: 40px;
 }
 
@@ -163,25 +154,26 @@ a {
     transform: translateX(-50%);
     font-size: 55pt;
     font-weight: 500;
-    color: white;
+    color: #2299c4;
     padding: 40px;
     margin-top: 300px;
 }
 
 .top2 {
-  background-color: black;
+  background-color: #aa5670;
   height: 300px;
   width: 100%;
 }
 
 .homepage {
     z-index: 0;
-    position: relative;
+    position: absolute;
     left: 50%;
     transform: translateX(-50%);
     font-size: 55pt;
     font-weight: 500;
-    color: white;
+    color: #2299c4;
+    margin-top: 300px;
     text-align: center;
 }
 
@@ -189,21 +181,6 @@ a {
   color: yellow;
 }
 
-.versions {
-    z-index: 0;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 20pt;
-    font-weight: 300;
-    color: white;
-    text-align: center;
-    padding: 30px;
-}
-
-.versions a:hover {
-  color: yellow;
-}
 
 .inglist {s
   z-index: 0;
@@ -211,7 +188,7 @@ a {
   margin-left: 20%;
   margin-top: 12%;
   font-weight: 200;
-  color: white;
+  color: #2299c4;
   padding: 35px;
 }
 
@@ -227,7 +204,7 @@ a {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: white;
+  color: #2299c4;
 }
 
 .container input {
@@ -244,15 +221,15 @@ a {
   left: 0;
   height: 25px;
   width: 25px;
-  background-color: #eee;
+  background-color: #faa0b3;
 }
 
 .container:hover input ~ .checkmark {
-  background-color: #FBFBB5;
+  background-color: #5acdf4;
 }
 
 .container input:checked ~ .checkmark {
-  background-color: yellow;
+  background-color: #5acdf4;
 }
 
 .checkmark:after {
@@ -270,7 +247,7 @@ a {
   top: 5px;
   width: 5px;
   height: 10px;
-  border: solid black;
+  border: solid #faa0b3;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -279,7 +256,7 @@ a {
 
 
 #step1 {
-  background-color: black;
+  background-color: #aa5670;
   height: 600px;
   position: relative;
   width: 100%;
@@ -287,7 +264,7 @@ a {
 }
 
 #step2 {
-  background-color: black;
+  background-color: #aa5670;
   height: 600px;
   position: relative;
   width: 100%;
@@ -295,7 +272,7 @@ a {
 }
 
 #step3 {
-  background-color: black;
+  background-color: #aa5670;
   height: 600px;
   position: relative;
   width: 100%;
@@ -303,7 +280,7 @@ a {
 }
 
 #step4 {
-  background-color: black;
+  background-color: #aa5670;
   height: 600px;
   position: relative;
   width: 100%;
@@ -311,7 +288,7 @@ a {
 }
 
 #bottom {
-  background-color: black;
+  background-color: #aa5670;
   height: 700px;
   position: relative;
   width: 100%;

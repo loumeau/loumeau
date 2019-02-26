@@ -12,34 +12,25 @@ body {
 }
 
 
-h1 { font-size: 35px }
+h1 { font-size: 65px }
 
 h2 { 
     z-index: 0;
     position: absolute;
     margin-left: 15%;
-    font-size: 55pt;
+    font-size: 85pt;
     font-weight: 500;
     color: white;
     padding: 40px;
 }
 
-h4 {
-  font-size: 55pt;
-  font-weight: 500;
-  color: white;
-  padding: 30px;
-  text-align: center;
-
-}
-
 a { 
   text-decoration: none;
-  color: white;
+  color: yellow;
 }
 
 .title p {
-  font-size: 75pt;
+  font-size: 145pt;
   font-weight: 700;
   color: white;
   padding: 30px;
@@ -176,12 +167,13 @@ a {
 
 .homepage {
     z-index: 0;
-    position: relative;
+    position: absolute;
     left: 50%;
     transform: translateX(-50%);
     font-size: 55pt;
     font-weight: 500;
     color: white;
+    margin-top: 300px;
     text-align: center;
 }
 
@@ -189,21 +181,6 @@ a {
   color: yellow;
 }
 
-.versions {
-    z-index: 0;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 20pt;
-    font-weight: 300;
-    color: white;
-    text-align: center;
-    padding: 30px;
-}
-
-.versions a:hover {
-  color: yellow;
-}
 
 .inglist {s
   z-index: 0;
@@ -220,14 +197,14 @@ a {
   display: block;
   position: relative;
   padding-left: 35px;
-  margin-bottom: 12px;
+  margin-bottom: -5px;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 20px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: white;
+  color: red;
 }
 
 .container input {
@@ -244,15 +221,15 @@ a {
   left: 0;
   height: 25px;
   width: 25px;
-  background-color: #eee;
+  background-color: pink;
 }
 
 .container:hover input ~ .checkmark {
-  background-color: #FBFBB5;
+  background-color: red;
 }
 
 .container input:checked ~ .checkmark {
-  background-color: yellow;
+  background-color: purple;
 }
 
 .checkmark:after {
