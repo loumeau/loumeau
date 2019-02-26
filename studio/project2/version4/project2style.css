@@ -1,0 +1,269 @@
+
+html {
+  scroll-behavior: smooth;
+ }
+
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+}
+
+
+h1 { font-size: 35px }
+
+h2 { 
+    z-index: 0;
+    position: absolute;
+    margin-left: 15%;
+    font-size: 55pt;
+    font-weight: 500;
+    color: white;
+    padding: 40px;
+}
+
+.title p {
+  font-size: 75pt;
+  font-weight: 700;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.title {
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+  text-align: center;
+  margin-top: 0%;
+}
+
+.picture {
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10%;
+  filter: drop-shadow(8px -10px 10px rgba(0,0,0,0.5));
+
+}
+
+.explaination p {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.explaination {
+  position: absolute;
+  margin: 0;
+  left: 0;
+  right: 0;
+  top: 80%;
+}
+
+.top {
+  background-color: black;
+  height: 800px;
+  width: 100%;
+
+}
+
+.nextstep {
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+.button {
+  box-shadow:inset 0px 8px 16px -9px #ffffff;
+  background-color:#eeff00;
+  border-radius:28px;
+  display:inline-block;
+  cursor:pointer;
+  color:#000000;
+  font-family:Arial;
+  font-size:18px;
+  font-weight:bold;
+  padding:10px 19px;
+  text-decoration:none;
+  margin-bottom: 35pt;
+}
+
+.button:hover {
+  background-color:#ffffff;
+}
+
+
+#ingredients {
+  background-color: black;
+  height: 600px;
+  position: relative;
+  width: 100%;
+
+}
+
+.ingtext p {
+  color: white;
+  font-size: 22pt;
+  font-weight: 200;
+  text-align: left;
+  
+}
+
+.ingtext {
+  width: 700px;
+  text-align: left;
+  position: absolute;
+  margin-top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.button2 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 485px;
+
+}
+
+.title2 {
+    z-index: 0;
+    position: absolute;
+    margin-left: 15%;
+    font-size: 55pt;
+    font-weight: 500;
+    color: white;
+    padding: 40px;
+}
+
+.title3 {
+    z-index: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 55pt;
+    font-weight: 500;
+    color: white;
+    padding: 40px;
+    margin-top: 300px;
+}
+
+
+.inglist {s
+  z-index: 0;
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 12%;
+  font-weight: 200;
+  color: white;
+  padding: 35px;
+}
+
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: white;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #FBFBB5;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: yellow;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+#step1 {
+  background-color: black;
+  height: 600px;
+  position: relative;
+  width: 100%;
+
+}
+
+#step2 {
+  background-color: black;
+  height: 600px;
+  position: relative;
+  width: 100%;
+
+}
+
+#step3 {
+  background-color: black;
+  height: 600px;
+  position: relative;
+  width: 100%;
+
+}
+
+#step4 {
+  background-color: black;
+  height: 600px;
+  position: relative;
+  width: 100%;
+
+}
+
+#bottom {
+  background-color: black;
+  height: 700px;
+  position: relative;
+  width: 100%;
+
+}
