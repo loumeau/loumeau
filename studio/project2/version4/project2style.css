@@ -24,6 +24,12 @@ h2 {
     padding: 40px;
 }
 
+@media (max-width: 500px) {
+  h2 {
+    font-size: 40px;
+  }
+}
+
 h4 {
   font-size: 55pt;
   font-weight: 500;
@@ -45,6 +51,19 @@ a {
   text-align: center;
 }
 
+@media (max-width: 1000px) {
+  .title p {
+  font-size: 60pt;}
+}
+
+@media (max-width: 700px) {
+  .title p {
+  font-size: 40pt;}
+}
+
+
+
+
 .title {
   width: 100%;
   z-index: 0;
@@ -60,8 +79,30 @@ a {
   transform: translateX(-50%);
   margin-top: 10%;
   filter: drop-shadow(8px -10px 10px rgba(0,0,0,0.5));
+  width: 800px;
+}
+
+@media (max-width: 1000px) {
+  .picture {
+    width: 500px;
+    margin-top: 20%;}
+}
+
+@media (max-width: 700px) {
+  .picture {
+    width: 500px;
+    margin-top: 20%;
+  }
+}
+
+@media (max-width: 500px) {
+  .picture {
+    width: 400px;
+    margin-top: 40%;
+  }
 
 }
+
 
 .explaination p {
   text-align: center;
@@ -77,6 +118,17 @@ a {
   top: 80%;
 }
 
+@media (max-width: 500px) {
+  .explaination p {
+    font-size: 14px; 
+  }
+  .explaination {
+    top: 55%;
+    margin: 8vh;
+  }
+
+}
+
 .top {
   background-color: black;
   height: 800px;
@@ -89,6 +141,12 @@ a {
   top: 93%;
   left: 50%;
   transform: translateX(-50%)
+}
+
+@media (max-width: 500px){
+  .nextstep {
+    top: 85%;
+  }
 }
 
 .button {
@@ -124,7 +182,6 @@ a {
   font-size: 22pt;
   font-weight: 200;
   text-align: left;
-  
 }
 
 .ingtext {
@@ -135,6 +192,17 @@ a {
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
+}
+
+@media (max-width: 500px) {
+  .ingtext p {
+    font-size: 18px;
+  }
+  .ingtext {
+    text-align: center;
+    margin-top: 40%;
+    width: 300px;
+  }
 }
 
 .button2 {
@@ -154,6 +222,12 @@ a {
     color: white;
     padding: 40px;
 }
+@media (max-width: 500px) {
+  .title2 {
+    font-size: 40px;
+    margin-left: 3%;
+  }
+}
 
 .title3 {
     z-index: 0;
@@ -166,6 +240,12 @@ a {
     padding: 40px;
     margin-top: 300px;
 }
+@media (max-width: 500px) {
+  .title3 {
+    margin-top: 10%;
+  }
+}
+
 
 .top2 {
   background-color: black;
@@ -205,7 +285,7 @@ a {
   color: yellow;
 }
 
-.inglist {s
+.inglist {
   z-index: 0;
   position: absolute;
   margin-left: 20%;
@@ -230,6 +310,14 @@ a {
   color: white;
 }
 
+@media (max-width: 500px) {
+  .container {
+    padding-left: 35px;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+}
+
 .container input {
   position: absolute;
   opacity: 0;
@@ -246,6 +334,8 @@ a {
   width: 25px;
   background-color: #eee;
 }
+
+
 
 .container:hover input ~ .checkmark {
   background-color: #FBFBB5;
@@ -275,6 +365,19 @@ a {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+@media (max-width: 500px) {
+  .checkmark {
+    height: 20px;
+    width: 20px;
+  }
+  .container .checkmark:after {
+  left: 7px;
+  top: 5px;
+  width: 3px;
+  height: 7px;
+  }
 }
 
 
@@ -312,7 +415,7 @@ a {
 
 #bottom {
   background-color: black;
-  height: 700px;
+  height: 400px;
   position: relative;
   width: 100%;
 
