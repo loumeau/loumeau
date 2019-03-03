@@ -1,6 +1,7 @@
 
 html {
   scroll-behavior: smooth;
+
  }
 
 body {
@@ -182,6 +183,7 @@ a {
   font-size: 22pt;
   font-weight: 200;
   text-align: left;
+  line-height: 130%;
 }
 
 .ingtext {
@@ -238,7 +240,7 @@ a {
     font-weight: 500;
     color: white;
     padding: 40px;
-    margin-top: 300px;
+    margin-top: 10%;
 }
 @media (max-width: 500px) {
   .title3 {
