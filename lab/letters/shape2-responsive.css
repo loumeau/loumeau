@@ -1,0 +1,43 @@
+#lowercase-i {
+  width:400px;
+  height:500px;
+}
+
+.dot {
+	width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px black solid;
+    margin-top: 35px;
+    margin-left: 19px;
+    position: absolute;
+}
+
+@media (max-width:600px) {
+  .dot {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+  }
+}
+
+
+.body {
+	width: 16px;
+   	height: 160px;
+   	border: 3px black solid;
+   	margin: 5px;
+   	margin-left: 26px;
+   	margin-top: 90px;
+   	position: absolute;
+}
+
+@media (max-width:600px) {
+  .body {
+    width: 8px;
+    height: 80px;
+    margin-left: 22px;
+    margin-top: 70px;
+    background-color: blue;
+  }
+}
