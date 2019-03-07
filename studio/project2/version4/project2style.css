@@ -61,7 +61,7 @@ a {
 }
 
 .title p {
-  font-size: 75pt;
+  font-size: 7em;
   font-weight: 700;
   color: white;
   padding: 30px;
@@ -450,4 +450,54 @@ a {
   position: relative;
   width: 100%;
 
+}
+
+
+.heart {
+  background-color: red;
+    display: inline-block;
+    height: 60px;
+    margin: 0px 10px;
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    transform: rotate(-45deg);
+    z-index: 1;
+    width: 60px;
+    animation: pulse 2s ease infinite;
+    animation: rotate 1s ease infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(2); }
+  100% { transform: scale(1); }
+}
+
+@keyframes rotate {
+  0% { transform: rotate(-50deg); }
+  50% { transform: rotate(-40deg) }
+  100% { transform: rotate(-50deg) }
+}
+
+
+
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+  height: 60px;
+  position: absolute;
+  width: 60px;
+}
+
+.heart:before {
+  top: -35px;
+  left: 0;
+}
+
+.heart:after {
+  left: 35px;
+  top: 0;
 }
