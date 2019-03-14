@@ -3,8 +3,8 @@
   max-width: 800px;
   margin: 20px auto;
   flex-wrap:wrap;
-
-  border: solid 1pt; 
+  border: solid white 1pt; 
+  background-color: #E7E7E7;
 }
 
 .week {
@@ -15,14 +15,14 @@
 }
 
 .day {
-	color: black;
+	color: #8F9491;
 	padding: 5px;
-	background-color: transparentize(white, 0.30);
 	width: 100px;
+
 }
 
 .day:hover {
-	background-color: lightgray;
+	background-color: #F3F6FA;
 }
 
 .weekdays {
@@ -41,6 +41,7 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
+	color: #8F9491;
 }
 
 @media only screen and (max-width: 600px) {
@@ -60,7 +61,7 @@ body {
   .day {
   	flex-direction: column;
   	border-top: solid 1px;
-    width: 100%;
+    width: auto;
     height: 50px;
     padding-left: 10px;
   }
