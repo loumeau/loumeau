@@ -1,0 +1,70 @@
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  flex-wrap:wrap;
+
+  border: solid 1pt; 
+}
+
+.week {
+  display: flex;
+  height: 80px;
+  padding: 5px;
+  border-top: solid 1px ;
+}
+
+.day {
+	color: black;
+	padding: 5px;
+	background-color: transparentize(white, 0.30);
+	width: 100px;
+}
+
+.day:hover {
+	background-color: lightgray;
+}
+
+.weekdays {
+	height: 30px;
+	display: flex;
+}
+
+
+
+.month {
+	height: 40px;
+	font-weight: 700;
+	padding: 1em;
+	text-align: center;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .weekdays {
+    display: none;
+  }
+  .container {
+  	max-width: 400px;
+  	
+  }
+  .week {
+    flex-direction: column;
+    height: auto;
+    border: none;
+
+  }
+  .day {
+  	flex-direction: column;
+  	border-top: solid 1px;
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+  }
+
+  #none {
+  	display: none;
+  }
