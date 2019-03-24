@@ -1,0 +1,40 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+  width: 800px;
+}
+
+body {
+	margin: 0;
+	background-color: #dddadb;
+}
+
+img {
+	display:block;
+    margin:auto;
+}
+
+.title {
+	text-align: center;
+}
+
+h1,h2,h3 {
+	font-family: "helvetica";
+	color: black;
+	
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	background-color: yellow;
+}
+
+.home {
+	padding: 10px;
+}
