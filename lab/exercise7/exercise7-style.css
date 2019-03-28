@@ -1,0 +1,48 @@
+.icon {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}
+
+.icon:hover .circle {
+  background: linear-gradient(275deg, #f3ef18, #8455d2, #59d734, #ff2222, #22a5ff);
+  animation: color 5s ease infinite;
+  background-size: 1000% 1000%;
+}
+
+.icon:hover .logo {
+  animation: spin 5s infinite;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: solid 8px black;
+  position: absolute; 
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  position: absolute; 
+}
+
+@keyframes color {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 51%}
+  100%{background-position:0% 50%}
+}
+
+@keyframes spin {
+  0% { transform: rotate(25deg); }
+  25% { transform: rotate(-185deg); }
+  50% { transform: rotate(185deg); }
+  75% { transform: rotate(-25deg); }
+  100% { transform: rotate(25deg); }
+
+}
+
