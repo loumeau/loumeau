@@ -22,7 +22,7 @@ console.log("The current time is:" + new Date());
 
 var currentHour = new Date().getHours()
 console.log(currentHour)
-	if (currentHour = 11) {
+	if (currentHour == 11) {
 		var msg = "it is 11 now"
 		} else {
 		var msg = "it is not 11 yet"
