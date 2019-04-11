@@ -46,3 +46,28 @@
 
 }
 
+
+.button {
+    padding: 0.5em 1.2em;
+    border: 2px solid black;
+    margin: 0 1.3em 0 0;
+    border-radius: 0.12em;
+    text-decoration: none;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 00;
+    transition: all 0.2s;
+    font-size: 10pt;
+}
+
+.button:hover {
+  color:black;
+  background-color:yellow;
+}
+
+.buttons {
+  top: 70%;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+
+}

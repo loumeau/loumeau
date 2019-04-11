@@ -2,24 +2,35 @@
 <html>
 <head>
     <title>ANIMATION</title>
-    <link rel="stylesheet" href="exercise7-style.css"> 
+    <link rel="stylesheet" href="exercise7.2-style.css"> 
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet"> 
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,600' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+    <script src="js.js"></script>
+
+
 </head>
 
 <body>
 	<div class="icon"> 
 
-	<div class="circle"></div>
-		<div class="logo">
-			<img src="instalogo.svg">
-		</div>	
+		<div class="circle"></div>
+		<div class="logo" id="logo"><img src="instalogo.svg"></div>	
+		<div class="logo" id="logo2"><img src="snapchatlogo.png" width="100px"></div>
+		<div class="logo" id="logo3"><img src="twitterlogo.png" width="100px"></div>	
+
+	</div>
+	<div class="buttons">
+		<button class="button" onclick="showInsta()">Snapchat</button>
+		<button class="button" onclick="showSnap()">Instagram</button>
+		<button class="button" onclick="showTwitter()">Twitter</button>
 
 	</div>
 
 
     
 </body>
+
 </html>
 
 
