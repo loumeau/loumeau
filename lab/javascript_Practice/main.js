@@ -38,3 +38,41 @@ console.log(currentHour)
  }
 
  console.log(response);
+
+
+ var fTemp = "43";
+ var country = "60"
+
+ function fToC(fahrenheit) {
+ 	var fTemp = fahrenheit;
+ 	var fToCel = (fTemp - 32) + 5/9;
+
+ 	var message = "The temperature in New York is "+
+ 	fToCel + '\xB0C at 10:30'
+   console.log(message);
+}
+fToC(43);
+
+ function fToCl(fahrenheit) {
+ 	var fTemp = fahrenheit;
+ 	var fToCel = (fTemp - 32) + 5/9;
+
+ 	var message = "The temperature in Australia is "+
+ 	fToCel + '\xB0C at 10:30'
+   console.log(message);
+}
+fToCl(60);
+
+for(var i = 1; i <= 40; i++) {
+
+      for(var j = 1; j<= i; j++) {
+
+        document.write("$666$");  
+
+      }
+
+      document.write("<br/>");
+}
+
+
+
