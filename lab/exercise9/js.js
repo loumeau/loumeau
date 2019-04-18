@@ -47,7 +47,7 @@ function updateBackground() {
   if (sec <= 10) {
     bstyle.backgroundColor = "red";
     color.color = "black";
-  } else if (sec >= 11 && sec <=20 ) {
+  } else if (sec > 11 && sec <=20 ) {
     bstyle.backgroundColor = "orange";
     color.color = "blue";
   } else if (sec >= 21 && sec <=30 ) {
@@ -59,7 +59,7 @@ function updateBackground() {
   } else if (sec >= 41 && sec <=50 ) {
     bstyle.backgroundColor = "blue";
     color.color = "red";
-  } else if (sec >= 51) {
+  } else if (sec > 51) {
     bstyle.backgroundColor = "purple";
     color.color = "yellow";
   } 
