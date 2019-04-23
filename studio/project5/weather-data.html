@@ -5,7 +5,13 @@
 </title>
 <head>
     <link rel="stylesheet" href="data-style.css">
-    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script type="text/javascript" src="javascript.js"></script>
+	
+
+	
+
 </head>
 <body>
 	<div class="sidebar">
@@ -24,23 +30,42 @@
 		<p id="options">humidity</p>	
 	</div>
 	<div class="city-names">
-		<p id="city">New York</p>
-		<p id="city">London</p>
-		<p id="city">Sydney</p>
+		<div id="city">New York</div>
+		<div id="city">London</div>
+		<div id="city">Sydney</div>
 	</div>
-	<div class="data">
-		<table class="NY">
-			
+	<div class="tables">
+		<table id="newyork">
+			<tr>
+				<th>Date</th>
+				<th>Temperature</th>
+			</tr>
+			<tr>
+				<td><p class="date"></p></td>
+				<td><p id="newyorktemp"></p></td>
+			</tr>
 		</table>
-	</div>
-	<div class="data">
-		<table class="London">
-			
+
+		<table id="london">
+			<tr>
+				<th>Date</th>
+				<th>Temperature</th>
+			</tr>
+			<tr>
+				<td><p class="date"></p></td>
+				<td><p id="londontemp"></p></td>
+			</tr>
 		</table>
-	</div>
-	<div class="data">
-		<table class="Sydney">
-			
+
+		<table>
+			<tr>
+				<th>Date</th>
+				<th>Temperature</th>
+			</tr>
+			<tr>
+				<td><p class="date"></p></td>
+				<td><p id="sydneytemp"></p></td>
+			</tr>
 		</table>
 	</div>
 
