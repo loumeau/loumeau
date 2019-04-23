@@ -98,10 +98,6 @@ th { border-bottom: 2.5px solid #BFC0C0; }
     text-align: center;
 
 }
-@media only screen and (max-width: 1080px) {
-	.wrapper {
-	grid-template-rows: repeat(1, 1fr);}
-}
 
 .data {
 	padding: 0;
