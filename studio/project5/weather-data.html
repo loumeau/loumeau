@@ -12,7 +12,7 @@
 </head>
 <body>
 	<div class="sidebar">
-		<div class="selection1">
+		<div class="views">
 			<p id="data_button"><a href="weather-data.html">data</a></p>
 			<p id="visual_button"><a href="weather-visual.html">visual</a> </p>
 		</div>
@@ -21,50 +21,54 @@
 			<p id="title2">Weather API</p>
 		</div>
 	</div>
-	<div class="selection2">
+	<div class="choices">
 		<p id="options">temperature</p>
 		<p id="options">pressure</p>
 		<p id="options">humidity</p>	
 	</div>
-	<div class="city-names">
-		<div id="city">New York</div>
-		<div id="city">London</div>
-		<div id="city">Sydney</div>
-	</div>
-	<div class="tables">
-		<table id="newyork">
-			<tr>
-				<th>Date</th>
-				<th>Temperature</th>
-			</tr>
-			<tr>
-				<td><p class="date"></p></td>
-				<td><p id="newyorktemp"></p></td>
-			</tr>
-		</table>
 
-		<table id="london">
-			<tr>
-				<th>Date</th>
-				<th>Temperature</th>
-			</tr>
-			<tr>
-				<td><p class="date"></p></td>
-				<td><p id="londontemp"></p></td>
-			</tr>
-		</table>
 
-		<table>
-			<tr>
-				<th>Date</th>
-				<th>Temperature</th>
-			</tr>
-			<tr>
-				<td><p class="date"></p></td>
-				<td><p id="sydneytemp"></p></td>
-			</tr>
-		</table>
-	</div>
+	<div class="wrapper">
+		<tbody class="data">
+			<div id="city">New York</div>
+			<div id="city">London</div>
+			<div id="city">Sydney</div>
+			<table class="chart" id="newyork">
+				<tr>
+					<th>Date</th>
+					<th>Temperature</th>
+				</tr>
+				<tr>
+					<td><p class="date"></p></td>
+					<td><p id="newyorktemp"></p></td>
+				</tr>
+			</table>
+
+			
+			<table class="chart" id="london">
+				<tr>
+					<th>Date</th>
+					<th>Temperature</th>
+				</tr>
+				<tr>
+					<td><p class="date"></p></td>
+					<td><p id="londontemp"></p></td>
+				</tr>
+			</table>
+
+			
+			<table class="chart" id="sydney">
+				<tr>
+					<th>Date</th>
+					<th>Temperature</th>
+				</tr>
+				<tr>
+					<td><p class="date"></p></td>
+					<td><p id="sydneytemp"></p></td>
+				</tr>
+			</table>
+		</tbody>	
+	</div>	
 
 </body>
 </html>
