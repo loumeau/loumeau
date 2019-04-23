@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 
     $.ajax({
-        url: 'htps://api.openweathermap.org/data/2.5/weather?id=5128581&units=imperial&APPID=85b7adbd780565753e6f31533c85a64f', 
+        url: 'http://://api.openweathermap.org/data/2.5/weather?id=5128581&units=imperial&APPID=85b7adbd780565753e6f31533c85a64f', 
         dataType: 'jsonp',
         success: function(results){
             temp = results.main.temp;
@@ -23,7 +23,7 @@ $(document).ready(function(){
     } 
 
     $.ajax({
-        url: 'htps://api.openweathermap.org/data/2.5/weather?id=2643744&units=imperial&APPID=85b7adbd780565753e6f31533c85a64f', 
+        url: 'http://://api.openweathermap.org/data/2.5/weather?id=2643744&units=imperial&APPID=85b7adbd780565753e6f31533c85a64f', 
         dataType: 'jsonp',
         success: function(results){
             temp = results.main.temp;
@@ -37,7 +37,7 @@ $(document).ready(function(){
     } 
 
     $.ajax({
-        url: 'htps://api.openweathermap.org/data/2.5/weather?id=2147714&units=imperial&APPID=85b7adbd780565753e6f31533c85a64f', 
+        url: 'http://://api.openweathermap.org/data/2.5/weather?id=2147714&units=imperial&APPID=85b7adbd780565753e6f31533c85a64f', 
         success: function(results){
             temp = results.main.temp;
             sydneytemp();
