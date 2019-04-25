@@ -4,7 +4,7 @@
     Weather API
 </title>
 <head>
-    <link rel="stylesheet" href="weather-data-style.css">
+    <link rel="stylesheet" href="weather-visual-style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 	<script type="text/javascript" src="javascript.js"></script>
@@ -26,6 +26,35 @@
 		<p id="options">pressure</p>
 		<p id="options">humidity</p>	
 	</div>
+
+	<div class="wrapper">
+		<tbody class="data">
+			<div id="ny_chart">
+				<div class="ny_dot">
+				<p class="ny_name">NY</p>
+				<img src="red.png" class="red_circle"></img>
+				<img src="red.png" class="red_circle2"></img>
+				<img src="red.png" class="red_circle3"></img>
+				</div>
+			</div>
+
+			<div id="london_chart">
+				<div class="london_dot"></div>
+				<p class="ln_name">LN</p>
+				<img src="orange.png" class="orange_circle"></img>
+				<img src="orange.png" class="orange_circle2"></img>
+				<img src="orange.png" class="orange_circle3"></img>
+			</div>
+
+			<div id="sydney_chart">
+				<div class="sy_dot"></div>
+				<p class="sy_name">SY</p>
+				<img src="blue.png" class="blue_circle"></img>
+				<img src="blue.png" class="blue_circle2"></img>
+				<img src="blue.png" class="blue_circle3"></img>
+			</div>
+		</tbody>
+	</div>	
 
 
 </body>
