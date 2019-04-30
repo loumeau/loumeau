@@ -23,30 +23,30 @@ $(document).ready(function(){
     } 
 
     $.ajax({
-        url: 'http://api.openweathermap.org/data/2.5/weather?id=2643744&units=imperial&APPID=85b7adbd780565753e6f31533c85a64f', 
+        url: 'http://api.openweathermap.org/data/2.5/weather?id=3128832&units=imperial&APPID=85b7adbd780565753e6f31533c85a64f', 
         dataType: 'jsonp',
         success: function(results){
             temp = results.main.temp;
-            londontemp();
+            madridtemp();
         }
     });
     
 
-    function londontemp(){
-        $('#londontemp').append(temp + '\xB0');
+    function madridtemp(){
+        $('#madridtemp').append(temp + '\xB0');
     } 
 
     $.ajax({
-        url: 'http://api.openweathermap.org/data/2.5/weather?id=2147714&units=imperial&APPID=85b7adbd780565753e6f31533c85a64f', 
+        url: 'http://api.openweathermap.org/data/2.5/weather?id=2038349&units=imperial&APPID=85b7adbd780565753e6f31533c85a64f', 
         success: function(results){
             temp = results.main.temp;
-            sydneytemp();
+            beijingtemp();
         }
     });
     
 
-    function sydneytemp(){
-        $('#sydneytemp').append(temp + '\xB0');
+    function beijingtemp(){
+        $('#beijingtemp').append(temp + '\xB0');
     } 
 
     var currentTime = new Date();
