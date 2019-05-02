@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<title>
+    Weather API
+</title>
+<head>
+    <link rel="stylesheet" href="weather-visual-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script type="text/javascript" src="javascript.js"></script>
+	
+</head>
+<body>
+	<div class="sidebar">
+		<div class="views">
+			<p id="data_button"><a href="weather-data.html">data</a></p>
+			<p id="visual_button"><a href="weather-visual.html">visual</a> </p>
+		</div>
+		<div class="title">
+			<p id="title1">PROJECT 05</p>
+			<p id="title2">Weather API</p>
+		</div>
+	</div>
+
+	<div class="wrapper">
+			<div class="lattitude-line0"></div>
+			<div class="lattitude-line1"></div>
+			<div class="lattitude-line2"></div>
+			<div class="lattitude-line3"></div>
+			<section class="newyork" >
+				<div id="ny_dot"></div>
+				<div class="ny_name"><p>New York</p></div>
+				<div id="ny_humidity"></div>
+				<div id="ny_wind"></div>
+				<div id="ny_pressure"></div>
+			</section>
+
+			<section class="madrid">
+				<div id="madrid_dot"></div>
+				<div class="madrid_name"><p>Madrid</p></div>
+				<div id="madrid_humidity"></div>
+				<div id="madrid_wind"></div>
+				<div id="madrid_pressure"></div>
+			</section>
+
+			<section class="beijing">
+				<div id="beijing_dot"></div>
+				<div class="beijing_name"><p>Beijing</p></div>
+				<div id="beijing_humidity"></div>
+				<div id="beijing_wind"></div>
+				<div id="beijing_pressure"></div>
+			</section>
+	</div>
+
+
+
+	<div class="data-wrapper">
+		<tbody class="data">
+			<div id="city">New York</div>
+			<div id="city">Madrid</div>
+			<div id="city">Beijing</div>
+			<table class="chart" id="newyork">
+				<tr>
+					<th>Date</th>
+					<th>Temperature</th>
+				</tr>
+				<tr>
+					<td><p class="date"></p></td>
+					<td><p id="newyorktemp"></p></td>
+				</tr>
+			</table>
+
+			<table class="chart" id="madrid">
+				<tr>
+					<th>Date</th>
+					<th>Temperature</th>
+				</tr>
+				<tr>
+					<td><p class="date"></p></td>
+					<td><p id="madridtemp"></p></td>
+				</tr>
+			</table>
+			
+			<table class="chart" id="beijing">
+				<tr>
+					<th>Date</th>
+					<th>Temperature</th>
+				</tr>
+				<tr>
+					<td><p class="date"></p></td>
+					<td><p id="beijingtemp"></p></td>
+				</tr>
+			</table>
+		</tbody>	
+	</div>	
+
+
+
+</body>
+</html>
