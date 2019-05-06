@@ -61,11 +61,11 @@ $(document).ready(function(){
     $('.date').append(month + "/" + day + "/" + year);  
 
 
-});
 
 
 
-function newyorkweather(windspeed){
+
+function newyork_weather(windspeed){
         if (windspeed<1) document.getElementById("ny_humidity").style.animationDuration = "15s"; 
         else if (windspeed<2) document.getElementById("ny_humidity").style.animationDuration = "14s";
         else if (windspeed<3) document.getElementById("ny_humidity").style.animationDuration = "13s";
@@ -87,7 +87,7 @@ function newyorkweather(windspeed){
     }
 
 
-
+});
 
 
 
