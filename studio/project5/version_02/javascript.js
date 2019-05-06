@@ -63,13 +63,28 @@ $(document).ready(function(){
 
 });
 
-var e = document.getElementById('newyork');
-e.onmouseover = function() {
-  document.getElementById('newyork_popup').style.display = 'block';
-}
-e.onmouseout = function() {
-  document.getElementById('newyork_popup').style.display = 'none';
-}
+
+
+function newyorkweather(windspeed){
+        if (windspeed<1) document.getElementById("ny_humidity").style.animationDuration = "15s"; 
+        else if (windspeed<2) document.getElementById("ny_humidity").style.animationDuration = "14s";
+        else if (windspeed<3) document.getElementById("ny_humidity").style.animationDuration = "13s";
+        else if (windspeed<4) document.getElementById("ny_humidity").style.animationDuration = "12s";
+        else if (windspeed<5) document.getElementById("ny_humidity").style.animationDuration = "11s";
+        else if (windspeed<6) document.getElementById("ny_humidity").style.animationDuration = "10s";
+        else if (windspeed<7) document.getElementById("ny_humidity").style.animationDuration = "9s";
+        else if (windspeed<8) document.getElementById("ny_humidity").style.animationDuration = "8s";
+        else if (windspeed<9) document.getElementById("ny_humidity").style.animationDuration = "7s";
+        else if (windspeed<10) document.getElementById("ny_humidity").style.animationDuration = "6s";
+        else if (windspeed<11) document.getElementById("ny_humidity").style.animationDuration = "5s";
+        else if (windspeed<12) document.getElementById("ny_humidity").style.animationDuration = "4s";
+        else if (windspeed<13) document.getElementById("ny_humidity").style.animationDuration = "3s";
+        else if (windspeed<14) document.getElementById("ny_humidity").style.animationDuration = "2s";
+        else if (windspeed<15) document.getElementById("ny_humidity").style.animationDuration = "1s";
+        else if (windspeed<16) document.getElementById("ny_humidity").style.animationDuration = ".5s";
+        else if (windspeed>16)document.getElementById("ny_humidity").style.animationDuration = ".1s";  
+
+    }
 
 
 

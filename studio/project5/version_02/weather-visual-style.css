@@ -275,7 +275,8 @@ th { border-bottom: 2.5px solid #BFC0C0; }
     position: relative;
     top: -230px;
     margin: 0 auto;
-    animation: rotation 2s infinite linear;
+    animation: rotation infinite linear;
+    animation-duration: 0s;
     transform-origin: 100px 100px;
 
 }
@@ -432,7 +433,7 @@ th { border-bottom: 2.5px solid #BFC0C0; }
 
 }
 
-@-webkit-keyframes rotation {
+@keyframes rotation {
         from {
                 -webkit-transform: rotate(0deg);
         }
@@ -457,7 +458,7 @@ th { border-bottom: 2.5px solid #BFC0C0; }
 
 }
 
-@-webkit-keyframes rotation {
+@keyframes rotation {
         from {
                 -webkit-transform: rotate(0deg);
         }
@@ -482,7 +483,7 @@ th { border-bottom: 2.5px solid #BFC0C0; }
 
 }
 
-@-webkit-keyframes rotation {
+@keyframes rotation {
         from {
                 -webkit-transform: rotate(0deg);
         }
