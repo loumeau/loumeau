@@ -1,7 +1,6 @@
 
 var temp; 
-var pressure; 
-var humidity; 
+var windspeed;
 
 
 
@@ -13,13 +12,15 @@ $(document).ready(function(){
         dataType: 'jsonp',
         success: function(results){
             temp = results.main.temp;
-            newyorktemp();
+            windspeed = results.wind.speed;
+            newyorkweather();
         }
     });
     
 
-    function newyorktemp(){
+    function newyorkweather(){
         $('#newyorktemp').append(temp + '\xB0');
+        $('#newyorkwind').append(windspeed + ' mph');
     } 
 
     $.ajax({
@@ -27,26 +28,30 @@ $(document).ready(function(){
         dataType: 'jsonp',
         success: function(results){
             temp = results.main.temp;
-            madridtemp();
+            windspeed = results.wind.speed;
+            madridweather();
         }
     });
     
 
-    function madridtemp(){
+    function madridweather(){
         $('#madridtemp').append(temp + '\xB0');
+        $('#madridwind').append(windspeed + ' mph');
     } 
 
     $.ajax({
         url: 'http://api.openweathermap.org/data/2.5/weather?id=2038349&units=imperial&APPID=85b7adbd780565753e6f31533c85a64f', 
         success: function(results){
             temp = results.main.temp;
-            beijingtemp();
+            windspeed = results.wind.speed;
+            beijingweather();
         }
     });
     
 
-    function beijingtemp(){
+    function beijingweather(){
         $('#beijingtemp').append(temp + '\xB0');
+        $('#beijingwind').append(windspeed + ' mph');
     } 
 
     var currentTime = new Date();
@@ -58,8 +63,13 @@ $(document).ready(function(){
 
 });
 
-
-
+var e = document.getElementById('newyork');
+e.onmouseover = function() {
+  document.getElementById('newyork_popup').style.display = 'block';
+}
+e.onmouseout = function() {
+  document.getElementById('newyork_popup').style.display = 'none';
+}
 
 
 

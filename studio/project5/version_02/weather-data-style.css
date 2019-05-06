@@ -6,7 +6,7 @@ a { text-decoration: none; color: inherit;}
 a:hover, a:active { color: #2D3142; }
 
 .sidebar {
-	width: 170px;
+	width: 140px;
 	height: 100%;
 	z-index: 0;
 	position: fixed;
@@ -31,28 +31,29 @@ a:hover, a:active { color: #2D3142; }
 
 
 .title {
-	position: relative;
+	position: absolute;
 
 }
 
 #title1 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 60pt;
-	font-weight: 700;
-	color: #4F5D75;
-	transform: rotate(-90deg);
-	position: relative;
-	bottom: -300px;
-	line-height: 70px;
+    font-size: 40pt;
+    font-weight: 700;
+    color: #4F5D75;
+    transform: rotate(-90deg);
+    position: relative;
+    bottom: -170px;
+    width: 560px;
+    left: -210px;
 }
 
 #title2 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 20pt;
-	color: #FFFFFF;
-	position: absolute;
-	bottom: -400px;
-	left: 10px;
+    font-size: 15pt;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: -400px;
+    left: 10px;
 }
 
 

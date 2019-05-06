@@ -1,12 +1,12 @@
 
-body { margin: 0; top: 0; background-color: #242038}
+body { margin: 0; top: 0; background-color: white}
 
 a { text-decoration: none; color: inherit;}
 
 a:hover, a:active { color: #2D3142; }
 
 .sidebar {
-	width: 170px;
+	width: 140px;
 	height: 100%;
 	z-index: 0;
 	position: fixed;
@@ -32,28 +32,29 @@ a:hover, a:active { color: #2D3142; }
 
 
 .title {
-	position: relative;
+	position: absolute;
 
 }
 
 #title1 {
-	font-family: 'Roboto', sans-serif;
-	font-size: 60pt;
-	font-weight: 700;
-	color: #4F5D75;
-	transform: rotate(-90deg);
-	position: relative;
-	bottom: -300px;
-	line-height: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40pt;
+    font-weight: 700;
+    color: #4F5D75;
+    transform: rotate(-90deg);
+    position: relative;
+    bottom: -170px;
+    width: 560px;
+    left: -210px;
 }
 
 #title2 {
-	font-family: 'Roboto', sans-serif;
-	font-size: 20pt;
-	color: #FFFFFF;
-	position: absolute;
-	bottom: -400px;
-	left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15pt;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: -400px;
+    left: 10px;
 }
 
 
@@ -94,7 +95,7 @@ th { border-bottom: 2.5px solid #BFC0C0; }
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-gap: 40px;
-    margin-left: 200px;
+    margin-left: 180px;
     width: 1200px;
     position: absolute;
     top: -80px;
@@ -116,7 +117,7 @@ th { border-bottom: 2.5px solid #BFC0C0; }
     grid-row-start: 1;
     grid-row-end: 12;
     grid-column: 1 / span 12;
-    background-color: #01161E;
+    background-color: white;
 
 }
 
@@ -124,7 +125,7 @@ th { border-bottom: 2.5px solid #BFC0C0; }
     width: 900px;
     border-bottom-left-radius: 500px;
     border-bottom-right-radius: 500px;
-    border: 15px solid white;
+    border: 15px solid gray;
     border-top: 0;
     box-sizing: border-box;
     position: relative;
@@ -134,7 +135,7 @@ th { border-bottom: 2.5px solid #BFC0C0; }
     grid-row-start: 1;
     grid-row-end: 12;
     grid-column: 1 / span 12;
-    background-color: #588191;
+    background-color: white;
 
 }
 
@@ -152,7 +153,7 @@ th { border-bottom: 2.5px solid #BFC0C0; }
     grid-row-start: 1;
     grid-row-end: 12;
     grid-column: 1 / span 12;
-    background-color: #ACBBC1;
+    background-color: white;
 
 }
 
@@ -170,7 +171,7 @@ th { border-bottom: 2.5px solid #BFC0C0; }
     grid-row-start: 1;
     grid-row-end: 12;
     grid-column: 1 / span 12;
-    background-color: #DEEEF4;
+    background-color: white;
 
 }
 
@@ -510,4 +511,13 @@ th { border-bottom: 2.5px solid #BFC0C0; }
     border: none;
 
 }
+
+​#newyork_popup {
+    border:1px solid #F00;
+    background-color: white;
+    width:150px;
+    position: absolute;
+}​
+
+
 
