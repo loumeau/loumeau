@@ -23,6 +23,27 @@ $(document).ready(function(){
         $('#newyorkwind').append(windspeed + ' mph');
     } 
 
+    function newyork_winds(){
+        if (windspeed<1) ('#ny_humidity').css('animationDuration', '15s'); 
+        else if (windspeed<2) $('#ny_humidity').css('animationDuration', '14s');
+        else if (windspeed<3) $('#ny_humidity').css('animationDuration', '14s');
+        else if (windspeed<4) $('#ny_humidity').css('animationDuration', '14s');
+        else if (windspeed<5) $('#ny_humidity').css('animationDuration', '14s');
+        else if (windspeed<6) $('#ny_humidity').css('animationDuration', '14s');
+        else if (windspeed<7) $('#ny_humidity').css('animationDuration', '14s');
+        else if (windspeed<8) $('#ny_humidity').css('animationDuration', '14s');
+        else if (windspeed<9) $('#ny_humidity').css('animationDuration', '14s');
+        else if (windspeed<10) $('#ny_humidity').css('animationDuration', '14s');
+        else if (windspeed<11) $('#ny_humidity').css('animationDuration', '14s');
+        else if (windspeed<12) $('#ny_humidity').css('animationDuration', '14s');
+        else if (windspeed<13) $('#ny_humidity').css('animationDuration', '14s');
+        else if (windspeed<14) $('#ny_humidity').css('animationDuration', '14s');
+        else if (windspeed<15) $('#ny_humidity').css('animationDuration', '14s');
+        else if (windspeed<16) $('#ny_humidity').css('animationDuration', '14s');
+        else if (windspeed>16) $('#ny_humidity').css('animationDuration', '14s');  
+
+    }
+
     $.ajax({
         url: 'http://api.openweathermap.org/data/2.5/weather?id=3128832&units=imperial&APPID=85b7adbd780565753e6f31533c85a64f', 
         dataType: 'jsonp',
@@ -65,30 +86,20 @@ $(document).ready(function(){
 
 
 
-function newyork_weather(windspeed){
-        if (windspeed<1) document.getElementById("ny_humidity").style.animationDuration = "15s"; 
-        else if (windspeed<2) document.getElementById("ny_humidity").style.animationDuration = "14s";
-        else if (windspeed<3) document.getElementById("ny_humidity").style.animationDuration = "13s";
-        else if (windspeed<4) document.getElementById("ny_humidity").style.animationDuration = "12s";
-        else if (windspeed<5) document.getElementById("ny_humidity").style.animationDuration = "11s";
-        else if (windspeed<6) document.getElementById("ny_humidity").style.animationDuration = "10s";
-        else if (windspeed<7) document.getElementById("ny_humidity").style.animationDuration = "9s";
-        else if (windspeed<8) document.getElementById("ny_humidity").style.animationDuration = "8s";
-        else if (windspeed<9) document.getElementById("ny_humidity").style.animationDuration = "7s";
-        else if (windspeed<10) document.getElementById("ny_humidity").style.animationDuration = "6s";
-        else if (windspeed<11) document.getElementById("ny_humidity").style.animationDuration = "5s";
-        else if (windspeed<12) document.getElementById("ny_humidity").style.animationDuration = "4s";
-        else if (windspeed<13) document.getElementById("ny_humidity").style.animationDuration = "3s";
-        else if (windspeed<14) document.getElementById("ny_humidity").style.animationDuration = "2s";
-        else if (windspeed<15) document.getElementById("ny_humidity").style.animationDuration = "1s";
-        else if (windspeed<16) document.getElementById("ny_humidity").style.animationDuration = ".5s";
-        else if (windspeed>16)document.getElementById("ny_humidity").style.animationDuration = ".1s";  
 
-    }
 
 
 });
 
 
+
+$( document ).ready(function() {
+  
+    $("#newyork_humidity").css("animation-duration", "14s");
+
+    
+
+});
+   
 
 
