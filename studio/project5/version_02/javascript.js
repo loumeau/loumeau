@@ -23,6 +23,8 @@ $(document).ready(function(){
         $('#newyorkwind').append(windspeed + ' mph');
     } 
 
+    var windspeed;
+
     function newyork_winds(){
         if (windspeed<1) ('#ny_humidity').css('animationDuration', '15s'); 
         else if (windspeed<2) $('#ny_humidity').css('animationDuration', '14s');
