@@ -23,26 +23,26 @@ $(document).ready(function(){
         $('#newyorkwind').append(windspeed + ' mph');
     } 
 
-    var windspeed;
+
 
     function newyork_winds(){
-        if (windspeed<1) ('#ny_humidity').css('animationDuration', '15s'); 
-        else if (windspeed<2) $('#ny_humidity').css('animationDuration', '14s');
-        else if (windspeed<3) $('#ny_humidity').css('animationDuration', '14s');
-        else if (windspeed<4) $('#ny_humidity').css('animationDuration', '14s');
-        else if (windspeed<5) $('#ny_humidity').css('animationDuration', '14s');
-        else if (windspeed<6) $('#ny_humidity').css('animationDuration', '14s');
-        else if (windspeed<7) $('#ny_humidity').css('animationDuration', '14s');
-        else if (windspeed<8) $('#ny_humidity').css('animationDuration', '14s');
-        else if (windspeed<9) $('#ny_humidity').css('animationDuration', '14s');
-        else if (windspeed<10) $('#ny_humidity').css('animationDuration', '14s');
-        else if (windspeed<11) $('#ny_humidity').css('animationDuration', '14s');
-        else if (windspeed<12) $('#ny_humidity').css('animationDuration', '14s');
-        else if (windspeed<13) $('#ny_humidity').css('animationDuration', '14s');
-        else if (windspeed<14) $('#ny_humidity').css('animationDuration', '14s');
-        else if (windspeed<15) $('#ny_humidity').css('animationDuration', '14s');
-        else if (windspeed<16) $('#ny_humidity').css('animationDuration', '14s');
-        else if (windspeed>16) $('#ny_humidity').css('animationDuration', '14s');  
+        if (windspeed<1) {('#ny_humidity').css('animationDuration', '15s'); }
+        else if (windspeed<2) {('#ny_humidity').css('animationDuration', '14s');}
+        else if (windspeed<3) {('#ny_humidity').css('animationDuration', '14s');}
+        else if (windspeed<4) {('#ny_humidity').css('animationDuration', '14s');}
+        else if (windspeed<5) {('#ny_humidity').css('animationDuration', '14s');}
+        else if (windspeed<6) {('#ny_humidity').css('animationDuration', '14s');}
+        else if (windspeed<7) {('#ny_humidity').css('animationDuration', '14s');}
+        else if (windspeed<8) {('#ny_humidity').css('animationDuration', '14s');}
+        else if (windspeed<9) {('#ny_humidity').css('animationDuration', '14s');}
+        else if (windspeed<10) {('#ny_humidity').css('animationDuration', '14s');}
+        else if (windspeed<11) {('#ny_humidity').css('animationDuration', '14s');}
+        else if (windspeed<12) {('#ny_humidity').css('animationDuration', '14s');}
+        else if (windspeed<13) {('#ny_humidity').css('animationDuration', '14s');}
+        else if (windspeed<14) {('#ny_humidity').css('animationDuration', '14s');}
+        else if (windspeed<15) {('#ny_humidity').css('animationDuration', '14s');}
+        else if (windspeed<16) {('#ny_humidity').css('animationDuration', '14s');}
+        else if (windspeed>16) {('#ny_humidity').css('animationDuration', '14s'); } 
 
     }
 
@@ -94,14 +94,6 @@ $(document).ready(function(){
 });
 
 
-
-$( document ).ready(function() {
-  
-    $("#newyork_humidity").css("animation-duration", "14s");
-
-    
-
-});
    
 
 
