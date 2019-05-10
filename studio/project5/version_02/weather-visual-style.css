@@ -276,7 +276,7 @@ th { border-bottom: 2.5px solid #BFC0C0; }
     position: relative;
     top: -230px;
     margin: 0 auto;
-    animation: rotation 8s infinite linear;
+    animation: rotation 7s infinite linear;
     transform-origin: 100px 100px;
 
 }
@@ -302,7 +302,7 @@ th { border-bottom: 2.5px solid #BFC0C0; }
     position: relative;
     top: -360px;
     margin: 0 auto;
-    animation: rotation 8s infinite linear;
+    animation: rotation 7s infinite linear;
     transform-origin: 125px 125px;
 
 }
@@ -327,7 +327,7 @@ th { border-bottom: 2.5px solid #BFC0C0; }
     position: relative;
     top: -520px;
     margin: 0 auto;
-    animation: rotation 8s infinite linear;
+    animation: rotation 7s infinite linear;
     transform-origin: 150px 150px;
 
 }
